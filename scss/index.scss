@@ -9,3 +9,44 @@ body {
 .Awesome {
     background-color: aqua;
 }
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F3F3F3;
+    
+        .topnav{
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+            // background-color: #F3F3F3;
+            overflow: hidden;
+            width: 100%;
+            border-radius: 2%;
+            display:flex;
+            justify-content: space-evenly;
+            max-width: 800px;
+            color: #411F1F;
+            text-decoration: none;
+        }
+        
+        a {
+            float: left;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            transition:.2s;
+            
+          }
+            .topnav a:hover {
+                // background-color:#86c4BA;
+                color: #86c4ba;
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5);
+            }
+}

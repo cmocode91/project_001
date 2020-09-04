@@ -1,11 +1,50 @@
 h1 {
-    color: red;
+  color: red;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
-p {
-    color: greenyellow;
+.Awesome {
+  background-color: aqua;
 }
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #F3F3F3;
+}
+header .topnav {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 2%;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 800px;
+  color: #411F1F;
+  text-decoration: none;
+}
+header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.2s;
+}
+header .topnav a:hover {
+  color: #86c4ba;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+/*# sourceMappingURL=index.css.map */
